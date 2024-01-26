@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem;
+}
+
+.content img {
+  height: 575px;
+  width: 437px;
+  margin-left: -36px;
+  margin-top: -13px;
+  position: relative;
+}
+
+.content video {
+  height: 542px;
+  width: 365px;
+  text-align: left;
+  margin-bottom: -209px;
+  position: absolute;
+  border-radius: 83px;
+}
+
+.item {
+  padding-top: 7rem;
+}
+
+.item .highlight {
+  background-color: blue;
+  margin-left: -9rem;
+  font-family: "Termina-demi", sans-serif;
+  font-size: 3rem;
+  color: #000;
+  font-weight: bold;
+  position: absolute;
+  width: 137px;
+  text-align: center;
+}
+
+.item h6 {
+  font-size: 50px;
+  font-family: "Termina-demi", sans-serif;
+  width: 68px;
+  color: white;
+}
+
+.item h3 {
+  font-size: 47px;
+  color: #ffffff;
+  font-family: "Termina-regular", sans-serif;
+  margin-bottom: 1.5rem;
+  width: 37rem;
+}
+
+.item h3 span {
+  background-color: blue;
+  color: white;
+  font-family: "Termina-regular", sans-serif;
+}
+
+.item p {
+  font-size: 32px;
+  color: #ffffff;
+  margin-left: 7rem;
+  font-family: "Termina-regular", sans-serif;
+  width: 79%;
+}
+
+@media (max-width: 1024px) {
+  .content img {
+    height: 514px;
+    width: 400px;
+  }
+  .content video {
+    height: 471px;
+    width: 344px;
+  }
+  .item {
+    padding-top: 7rem;
+  }
+  .item .highlight {
+    background-color: blue;
+    width: 139px;
+  }
+  .item h6 {
+    font-size: 50px;
+    font-family: "Termina-demi", sans-serif;
+    width: 68px;
+    color: white;
+  }
+  .item h3 {
+    font-size: 29px;
+    width: 23rem;
+  }
+  .item h3 span {
+    background-color: blue;
+    color: white;
+    font-family: "Termina-regular", sans-serif;
+  }
+  .item p {
+    font-size: 21px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 720px) and (min-width: 480px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .item {
+    padding: 0rem;
+  }
+  .content img {
+    height: 535px;
+    width: 355px;
+  }
+  .content video {
+    height: 457px;
+    width: 286px;
+    border-radius: 69px;
+  }
+  .item .highlight {
+    margin-left: -3rem;
+    font-size: 35px;
+  }
+  .item h6 {
+    font-size: 41px;
+    margin-left: -2rem;
+    margin-top: 8rem;
+  }
+  .item h3 {
+    font-size: 28px;
+    width: 12rem;
+    margin-left: -2rem;
+  }
+  .item h3 span {
+    background-color: blue;
+    color: white;
+    font-family: "Termina-regular", sans-serif;
+  }
+  .item p {
+    font-size: 19px;
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    display: block;
+  }
+  .item {
+    padding: 0rem;
+  }
+  .content img {
+    height: 496px;
+    width: 355px;
+  }
+  .content video {
+    height: 457px;
+    width: 286px;
+    border-radius: 69px;
+  }
+  .item .highlight {
+    margin-left: -2.5rem;
+    font-size: 33px;
+    width: 103px;
+  }
+  .item h6 {
+    font-size: 37px;
+    margin-left: 4rem;
+  }
+  .item h3 {
+    font-size: 21px;
+    width: 14rem;
+    margin-left: 4rem;
+  }
+  .item h3 span {
+    font-size: 18px;
+  }
+  .item p {
+    font-size: 14px;
+    margin-left: 7rem;
+  }
+}
+
+/* Second section */
+
+.grid {
+  display: grid;
+  padding: 3rem;
+}
+
+.grid-item h1 {
+  font-family: "Termina-regular", sans-serif;
+  font-size: 63px;
+  color: #202020;
+}
+
+.grid-item .img {
+  height: 653px;
+  width: 473px;
+  margin-left: -36px;
+  margin-top: -13px;
+  position: relative;
+}
+
+.grid-item video {
+  height: 599px;
+  width: 405px;
+  text-align: left;
+  margin-bottom: -209px;
+  position: absolute;
+  border-radius: 83px;
+}
+
+.grid-item p {
+  font-family: "Termina-regular", sans-serif;
+  font-size: 25px;
+  color: #6e6e6e;
+  margin-top: 39px;
+  width: 277px;
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.item1 h1 {
+  width: 81%;
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.item3 {
+  grid-column: 1 / span 1;
+  grid-row: 2;
+}
+
+.item5 {
+  grid-column: 1 / span 1;
+  grid-row: 2;
+}
+
+/* .item5 {
+    margin-left: 42rem;
+    margin-top: -25rem;
+    animation-name: fade linear 7s;
+}
+
+@keyframes fade {
+    form {
+        opacity: 0;
+        transform: rotateY(-15deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateY(0);
+    }
+} */
+
+.grid-item .img2 {
+  margin-top: 60px;
+}

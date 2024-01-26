@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background-color: grey;
+}
+.box img{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    z-index: 100;
+
+}
+.box video {
+    width: 278px;
+    height: 462px;
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    border-radius: 20px;
+}
